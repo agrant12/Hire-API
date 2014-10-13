@@ -1,0 +1,5 @@
+set foo bar
+get foo
+list
+delete foo
+get baz
