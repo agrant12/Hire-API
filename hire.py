@@ -79,9 +79,9 @@ class API:
 	#Print Response
 	def printer(self, data):
 		sys.stdout.write(data + "\n")
-        sys.stdout.flush()
+		sys.stdout.flush()
 
-    #Display if Error Thrown
+	#Display if Error Thrown
 	def error(self, status_code, error):
 		print Exception("error %s %s" % (status_code, error))
 		
